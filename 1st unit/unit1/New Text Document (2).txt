@@ -1,0 +1,16 @@
+import java.util.Scanner
+class N1{
+	public static void main(String args[]){
+		int x=1;
+		int y=1;
+		int z;
+		System.out.println(x"\n"y);
+		for(int n=2;n<=20;n++){
+			z=x+y;
+			x=y;
+			y=z;
+			System.out.println(z);
+			}
+	}
+}
+			
